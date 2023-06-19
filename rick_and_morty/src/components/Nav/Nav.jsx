@@ -11,10 +11,12 @@ const Nav = ({ onSearch }) => {
             <hr/>
             <Link to='home'>Home</Link>
             <hr/>
+            <Link to='/favorites'>Favorites</Link>
+            <hr/>
             <SearchBar onSearch={onSearch}/>
         </nav>
     </div>
     )
-}
+};
 
 export default Nav;
